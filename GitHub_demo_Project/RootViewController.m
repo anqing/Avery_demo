@@ -38,7 +38,7 @@
 -(void)initRootView
 {
     UIView *rootView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    rootView.backgroundColor = [UIColor redColor];
+    rootView.backgroundColor = [UIColor brownColor];
     self.view = rootView;
     [rootView release];
 }
