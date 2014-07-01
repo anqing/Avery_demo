@@ -41,6 +41,7 @@
     rootView.backgroundColor = [UIColor brownColor];
     self.view = rootView;
     [rootView release];
+    NSLog(@" log --- 1");
 }
 
 - (void)didReceiveMemoryWarning
