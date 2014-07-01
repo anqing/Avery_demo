@@ -32,6 +32,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    [self initRootView];
+}
+-(void)initRootView
+{
+    UIView *rootView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    rootView.backgroundColor = [UIColor redColor];
+    self.view = rootView;
+    [rootView release];
 }
 
 - (void)didReceiveMemoryWarning
