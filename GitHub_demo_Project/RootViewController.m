@@ -42,6 +42,8 @@
     self.view = rootView;
     [rootView release];
     NSLog(@" log --- 1");
+    NSLog(@" log --- 2");
+    NSLog(@" log --- 3");
 }
 
 - (void)didReceiveMemoryWarning
